@@ -1,0 +1,27 @@
+.planning-plate{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.planning-plate p {
+    color: red;
+    font-size: 2em;
+    margin: 0em;
+}
+
+.planning-create-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #058a57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .planning-create-button:hover {
+    background-color: #057c56;
+  }

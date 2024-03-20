@@ -1,0 +1,48 @@
+.car-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 60px auto;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+      "header header header"
+      "nav function function"
+      "nav carList carList"
+      "nav carList carList"
+      "nav carList carList";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  nav {
+    grid-area: nav;
+  }
+  
+  .car-list {
+    grid-area: carList;
+  }
+  
+  .car-functions {
+    grid-area: function;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .add-car-button {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #0ACF83;
+    color: white;
+    font-size: 4em;
+    cursor: pointer;
+  }
+
+  .icon-edit {
+    font-size: 2em;
+  }

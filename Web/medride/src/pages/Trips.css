@@ -1,0 +1,59 @@
+.trip-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    "header header header"
+    "nav functions functions"
+    "nav tripList tripList"
+    "nav tripList tripList"
+    "nav tripList tripList";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.tripList {
+  grid-area: tripList;
+}
+
+.trip-functions {
+  grid-area: functions;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-trip-button {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #0ACF83;
+  color: white;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.icon-time {
+  color: #18A0FB;
+  font-size: 2em;
+}
+
+.trip-0 {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.trip-1 {
+  background-color: green;
+  border-radius: 50%;
+}

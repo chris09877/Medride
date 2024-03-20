@@ -1,0 +1,13 @@
+.icon-delete {
+    color: white;
+    fill: #F24E1E;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+td{
+    padding: 0;
+    border-top: 1px solid grey;
+  }
+
+

@@ -1,0 +1,66 @@
+.patient-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    "header header header"
+    "nav functions functions"
+    "nav patientList patientList"
+    "nav patientList patientList"
+    "nav patientList patientList";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.patient-list {
+  grid-area: patientList;
+}
+
+.patient-functions {
+  grid-area: functions;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-patient-button {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #0ACF83;
+  color: white;
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.icon-yes {
+  color: green;
+  font-size: 1.5em;
+}
+
+.icon-no {
+  color: #F24E1E;
+  font-size: 1.5em;
+}
+
+.icon-delete {
+  color: white;
+  fill: #F24E1E;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.icon-handicap {
+  color: #18A0FB;
+  font-size: 2em;
+}

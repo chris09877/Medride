@@ -1,0 +1,46 @@
+.driver-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    "header header header"
+    "nav functions functions"
+    "nav driverList driverList"
+    "nav driverList driverList"
+    "nav driverList driverList";
+}
+
+header {
+  grid-area: header;
+}
+
+
+nav {
+  grid-area: nav;
+}
+
+
+.driverList {
+  grid-area: driverList;
+}
+
+.driver-functions {
+  grid-area: functions;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-driver-button {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #0ACF83;
+  color: white;
+  font-size: 4em;
+  cursor: pointer;
+}

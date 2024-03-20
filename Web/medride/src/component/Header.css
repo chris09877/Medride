@@ -1,0 +1,8 @@
+.header {
+    background-color: rgba(10, 207, 131, 1);
+    color: white;
+    background-image: url('../../public/Logo_Header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+}

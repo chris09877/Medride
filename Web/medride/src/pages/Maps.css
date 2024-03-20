@@ -1,0 +1,24 @@
+.mapsContainer {
+  
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    "header header header"
+    "nav map map"
+    "nav map map";
+}
+
+nav{
+  grid-area: nav;
+}
+
+header{
+  grid-area: header;
+}
+
+.map{
+  grid-area: map;
+}
